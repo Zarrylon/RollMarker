@@ -1,9 +1,11 @@
 # RollMarker
-Завдання: Розробка простої ігрової сцени в Unreal Engine.
 
-Опис геймплею:
-Гравець керує персонажем-маркером, завдання гри - пофарбувати всі цілі на рівні у свій колір.
-Фарбування цілі відбувається під час зіткнення гравця з ціллю. Помічені цілі при зіткненні з чистими цілями також їх фарбують у колір гравця.
-На сцені також присутні "очисники" - це цілі, які можуть повертати помічені цілі у початковий стан.
-Цілі хаотично рухаються по сцені, що додає складності геймплею.
-Гра закінчується, коли всі цілі, включно з очисниками, були пофарбовані у колір гравця.
+## Task
+Development of a simple game scene in Unreal Engine.
+
+## Gameplay
+The player controls a marker character with the objective of painting all targets on the level in their color. Painting a target occurs when the player collides with it. Marked targets, upon colliding with unmarked targets, will also paint them in the player's color.
+
+The scene also includes "cleaners" - targets that can revert marked targets back to their initial state. Targets move randomly across the scene, adding complexity to the gameplay.
+
+The game ends when all targets, including the cleaners, are painted in the player's color.
